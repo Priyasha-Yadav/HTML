@@ -1,14 +1,140 @@
+<!-- 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Stories</title>
+	<title>PageConnect - Where Readers & Authors Meet</title>
 </head>
 <body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#reviews">Book Reviews</a></li>
+				<li><a href="#discussions">Book Discussions</a></li>
+				<li><a href="#podcasts">Author's Podcast</a></li>
+				<li><a href="#live">Author's Live</a></li>
+				<li><a href="#conversations">Author & Reader Conversations</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="reviews">
+			<h2>Book Reviews</h2>
+			<form>
+				<label for="review">Share your review:</label>
+				<textarea id="review" name="review" required></textarea>
+				<button type="submit">Submit Review</button>
+			</form>
+			<div id="review-container"></div>
+		</section>
+		<section id="discussions">
+			<h2>Book Discussions</h2>
+			<form>
+				<label for="discussion">Start a discussion:</label>
+				<input type="text" id="discussion" name="discussion" required>
+				<button type="submit">Start Discussion</button>
+			</form>
+			<div id="discussion-container"></div>
+		</section>
+		<section id="podcasts">
+			<h2>Author's Podcast</h2>
+			<audio controls>
+				<source src="podcast.mp3" type="audio/mp3">
+				Your browser does not support the audio element.
+			</audio>
+		</section>
+		<section id="live">
+			<h2>Author's Live</h2>
+			<iframe src="live-video-link" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section id="conversations">
+			<h2>Author & Reader Conversations</h2>
+			<form>
+				<label for="message">Send a message:</label>
+				<input type="text" id="message" name="message" required>
+				<button type="submit">Send Message</button>
+			</form>
+			<div id="conversation-container"></div>
+		</section>
+	</main>
+	<script>
+		// Add JavaScript code here to handle form submissions, display reviews, discussions, etc.
+	</script>
+</body>
+</html> -->
 
 
 
- 
-
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PageConnect - Where Readers & Authors Meet</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		main {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+		}
+		section {
+			background-color: #f7f7f7;
+			padding: 20px;
+			margin-bottom: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		button {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>PageConnect</h1>
+		<nav>
+			<ul>
+				<li><a href="#reviews">Book Reviews</a></li>
+				<li><a href="#discussions">Book Discussions</a></li>
+				<li><a href="#podcasts">Author's Podcast</a></li>
+				<li><a href="#live">Author's Live</a></li>
+				<li><a href="#conversations">Author & Reader Conversations</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Welcome to PageConnect!</h2>
+			<p>A community where readers and authors connect, share ideas, and inspire each other.</p>
+			<button>Explore Now</button>
+		</section>
+	</main>
 </body>
 </html>
