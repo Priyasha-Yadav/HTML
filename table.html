@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   table, tr, td, th{
+        border: 2px solid blue;
+        border-collapse: collapse;
+        color:blue;
+
+        td{
+            width:100px;
+            text-align: center;
+
+        }}
+ul{list-style-type:disc;}
+ol{list-style-type: georgian;}
+
+.ol{list-style-type: lower-roman;}
+    
+</style>
+<body>
+    <table> <tr><th rowspan="2">A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th></tr>
+    <tr><td>0</td><td rowspan="2">0</td><td>0</td><td>0</td><td>0</td></tr>
+    <caption>This is a test table</caption>
+    <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+    <tr><td>2</td><td>2</td><td colspan="3">2</td><td>2</td></tr>
+
+</table>
+
+
+
+<ol>
+    <li>one</li>
+    <li>two</li>
+    <li>four</li>
+
+</ol>
+
+<ul>
+    <li>one</li>
+    <li>two</li>
+    <li>four</li>
+    
+    
+
+</ul>
+<dl>
+    <ol class="ol"><li><dt>Coffee</dt>
+    <dd>Black hot drink</dd></li>
+    <li><dt>Milk</dt>
+    <dd>White cold drink</dd></li>
+  </dl>
+</body>
+</html>
